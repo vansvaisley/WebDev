@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicing</title>
+</head>
+<body>
+<h1>Nested Unordered List</h1>
+<h3>GeeksforGeeks courses list:</h3>
+<ul>
+    <li>DSA
+        <ul>
+            <li>Array</li>
+              <li>Linked list</li>
+                <li>Stack</li>
+                  <li>Queue</li>
+        </ul>
+</li>
+<li>Web technologies
+    <ul>
+<li>Html</li>
+<li>]Css</li>
+<li>js</li>
+    </ul>
+</li>
+<li>APTITIDE</li>
+<li>Gate</li>
+<li>Placement</li>
+</ul>
+</body>
+</html>
