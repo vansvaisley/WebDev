@@ -1,0 +1,57 @@
+<!-- Functonal part -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello Coder army</h1>
+    <h2>Welcome Here !</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero maxime nihil accusamus quis eius doloribus impedit illo voluptas tempore. Debitis ratione eligendi ipsa est eos voluptatem quas commodi possimus rem.
+    Sed repellendus totam reiciendis. Magnam ullam omnis quis, facilis enim ea perspiciatis fuga eligendi consectetur architecto et quae temporibus, natus aperiam vitae voluptatum? Eligendi adipisci voluptate aperiam quam officia numquam.
+    Eius, illo recusandae nisi non totam earum consectetur maiores id quam atque assumenda unde nemo est amet dolorem! Ratione quisquam similique, voluptas qui laborum consectetur deleniti nihil quod sint molestias?
+    Ducimus totam suscipit, explicabo adipisci dolorum itaque iste aut vel ad. Magni doloremque repudiandae qui dolor blanditiis consectetur beatae rem suscipit placeat, quod repellendus vero impedit repellat ipsam ad. Eveniet?
+    Maiores perferendis vel repudiandae odio maxime! Corrupti itaque, enim dignissimos ut molestiae nulla culpa? Eaque dicta nisi voluptate quas iste, reprehenderit ut sequi. Totam ratione repellat ipsam fugiat eos nostrum!
+    Porro id cupiditate nam odit exprehenderit expedita, accusamus natus harum quidem eos animi sed qui! Nisi doloremque et repellat cum nam?</p>
+
+    <span>i am first</span>
+    <span>i am second</span>
+</body>
+</html>
+
+
+<!-- now Styling -->
+
+h1{
+    background-color: aquamarine;
+    height: 200px;
+    width: 400px;
+    border-width: 3px;
+    border: solid;
+    border-color: black;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+
+
+}
+h2{
+    background-color: aquamarine;
+    height: 200px;
+    width: 400px;
+    border-width: 3px;
+    border: solid;
+    border-color: black;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+span{
+    background-color: blanchedalmond;
+    margin: 50px;
+    padding-left: 50px;
+}
