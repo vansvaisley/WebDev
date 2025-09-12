@@ -1,0 +1,75 @@
+/*HTML Part  */
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="day-9Style.css">
+</head>
+<body>
+  <div id="container">
+
+<div id="rectangle">
+
+<div id="Left"></div> 
+<div id="Top"></div>
+<div id="right"></div>
+<div id="Bottom"></div>
+
+</div>
+  </div>
+</body>
+</html>
+
+/*CSS part  */
+
+*{
+    background-color: black;
+}
+
+#container{
+    height: 500px;
+    width: 700px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    left: 400px;
+}
+
+#rectangle{
+    height: 300px;
+    width: 450px;
+    background-color: rgb(247, 221, 29);
+    position: absolute;
+    top: 100px;
+ left: 130px;
+
+}
+#Left , #Bottom{
+    height: 120px;
+    width: 150px;
+    background-color: rgb(85, 85, 222);
+}
+#Bottom{
+     bottom: 0px;
+    position: absolute;
+   
+}
+#Top , #right{
+    height: 120px;
+    width: 250px;
+ 
+background-color: rgb(85, 85, 222);
+}
+#right{
+    bottom: 0px;
+    right: 0px;
+     position: absolute;
+}
+#Top{
+       position: absolute;
+    right: 0px;
+    top: 0px;
+}
