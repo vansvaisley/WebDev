@@ -1,0 +1,118 @@
+/*Chess Board  */
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <link rel="stylesheet" href="StyleChess.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+
+         <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+
+  <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+
+          <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+
+              <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+
+         <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+        <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+          <div class="White"></div>
+         <div class="green"></div>
+         <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+            <div class="green"></div>
+           <div class="White"></div>
+         
+    </div>
+</body>
+</html>
+
+
+/*Styling  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 800px;
+    width: 800px;
+    display: grid;
+    grid-template-rows: repeat(8 ,1fr);
+    grid-template-columns: repeat(8,1fr);
+    /* background-color: aquamarine; */
+}
+.White{
+    background-color: white;
+}
+.green{
+    background-color: green;
+}
+
+
